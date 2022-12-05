@@ -22,6 +22,8 @@
 
 ## Description
 
+The Note Taker application can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+
 ## Installation
 ***Requirments***
 
@@ -64,9 +66,19 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Mock Up
 
+![Application Demo](../../../../../../../C:/Users/andik/OneDrive/Desktop/Bootcamp/Note_Taker/public/assets/images/note-taker-demo.png)
+
+## Deployed Page
+
+Heroku:  
+// under construction //
+
 ## Contributions
+
+Starter Code:  
+
+ https://github.com/coding-boot-camp/miniature-eureka
 
 ## License
 
-Please refer to the LCIENSE in the repo
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
