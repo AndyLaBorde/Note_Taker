@@ -14,16 +14,16 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 // name='Ben' access this as JSON
 app.use(express.urlencoded({ extended: true }));
-app.use('/api/notes', notes);
 app.use(express.static("public"));
+app.use('/api/notes', notes);
 
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/index.html'));
+    res.sendFile(path.join(__dirname, "/public/index.html"));
 })
 
 app.get("/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/notes.html'));
+    res.sendFile(path.join(__dirname, "/public/notes.html"));
 })
 
 
